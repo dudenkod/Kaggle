@@ -20,7 +20,7 @@ library(DMwR);library(MASS); library(randomForest); library(e1071)
 library(dplyr)
 
 
-Train=read.table(file="./train.csv", header = TRUE, sep=",")
+Train_FULL=read.table(file="./train.csv", header = TRUE, sep=",")
 test=read.csv(file="./test.csv", header = TRUE)
 
 str(train)
