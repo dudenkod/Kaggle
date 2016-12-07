@@ -19,9 +19,8 @@ library(caret); library(kernlab); library(ISLR); library(RANN);
 library(DMwR);library(MASS); library(randomForest); library(e1071)
 library(dplyr)
 
-setwd("BIdatachallenge/")
 
-train=read.table(file="./data_recruiting_bi_data_challenge.csv", header = TRUE, sep=",")
+train=read.table(file="./train.csv", header = TRUE, sep=",")
 test=read.csv(file="./test.csv", header = TRUE)
 
 str(train)
